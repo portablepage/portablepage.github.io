@@ -1,2 +1,2 @@
 # portablepage.github.io
-Github Pages test
+Jekyll build test directly from Github Pages
