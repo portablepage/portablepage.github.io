@@ -1,9 +1,2 @@
 name: "You are logged in"
 markdown: kramdown
-collections:
-  - home:
-    output: true
-  - about:
-    output: true
-  - contact
-    output: true
