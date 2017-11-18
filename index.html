@@ -8,3 +8,12 @@ title: You are logged in.
 	<em>Deployed from PP to Github to Netlify.</em>
 	<br><br>
 </div>
+
+
+<ul>
+      {% for p in site.pages %}
+        <li>
+          <a href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
