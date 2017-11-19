@@ -1,0 +1,10 @@
+{
+    "title": "An introduction to Flywheel",
+    "body": "A lightweight, flat-file, document database for PHP...",
+    "author": "James",
+    "published": true,
+    "translations": {
+        "de": "Eine Einf\u00fchrung in Flywheel",
+        "it": "Una introduzione a Flywheel"
+    }
+}

@@ -4,12 +4,12 @@ title: About
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	Subfolder with subvar
+	Json posts
 	<ul>
-      {% for p in site.data.about.posts.mydata %}
+      {% for p in site.data.json %}
        <div>
 		   <h2>{{ p.title }}</h2>
-		   <p>{{ p.content }}</p>
+		   <p>{{ p.body }}</p>
 		</div>
       {% endfor %}
     </ul>

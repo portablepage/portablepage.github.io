@@ -1,0 +1,10 @@
+{
+    "title": "This is another post for the about page",
+    "body": "See if this works",
+    "author": "James",
+    "published": true,
+    "translations": {
+        "de": "Eine Einf\u00fchrung in Flywheel",
+        "it": "Una introduzione a Flywheel"
+    }
+}
