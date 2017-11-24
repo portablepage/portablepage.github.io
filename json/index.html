@@ -4,12 +4,12 @@ title: About
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	Json from Lazer
+	Json from Flywheel Markdown
 	<ul>
-      {% for p in site.data.flywheel.posts %}
+      {% for p in site.json.posts %}
        <div>
 		   <h2>{{ p.title }}</h2>
-		   <p>{{ p.body }}</p>
+		   <p>{{ p.content }}</p>
 		</div>
       {% endfor %}
     </ul>
