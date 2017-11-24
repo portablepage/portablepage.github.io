@@ -6,7 +6,7 @@ title: About
 	<ul class="posts">
 	Json from Flywheel Markdown
 	<ul>
-      {% for p in site.json.posts %}
+      {% for p in site.categories.json %}
        <div>
 		   <h2>{{ p.title }}</h2>
 		   <p>{{ p.content }}</p>
