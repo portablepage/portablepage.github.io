@@ -6,10 +6,10 @@ title: About
 	<ul class="posts">
 	Json from Lazer
 	<ul>
-      {% for p in site.data.posts.data %}
+      {% for p in site.data.menu %}
        <div>
 		   <h2>{{ p.title }}</h2>
-		   <p>{{ p.body }}</p>
+		   <p>{{ p.url }}</p>
 		</div>
       {% endfor %}
     </ul>
