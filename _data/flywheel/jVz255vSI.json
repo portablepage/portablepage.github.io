@@ -1,0 +1,16 @@
+{
+    "title": "A second post",
+    "dateAdded": {
+        "date": "2013-10-10 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "body": "This is some body text",
+    "wordCount": 7,
+    "author": "James",
+    "published": true,
+    "translations": {
+        "de": "Eine Einf\u00fchrung in Flywheel",
+        "it": "Una introduzione a Flywheel"
+    }
+}
