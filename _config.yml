@@ -1,6 +1,5 @@
 name: "You are logged in"
 markdown: kramdown
-collections_dir: _collections
 collections:
   articles:
     output: true
